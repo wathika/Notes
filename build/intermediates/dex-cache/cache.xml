@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\USER\AndroidStudioProjects\Note\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-ca4a675874bb35f997463c9506f0a4e04572d789.jar" />
+    </item>
+    <item
         jar="C:\Users\USER\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
         <dex dex="C:\Users\USER\AndroidStudioProjects\Note\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-98ee1e7b19c17427652de2f5b33f4c8274c6febe.jar" />
+    </item>
+    <item
+        jar="C:\Users\USER\AndroidStudioProjects\Note\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="078cad8ebaa25b1eb1790bd622b3a8ae27c9cc7a">
+        <dex dex="C:\Users\USER\AndroidStudioProjects\Note\app\build\intermediates\pre-dexed\debug\classes-fe068b8d3cf78c10d83e32954131069c3da1dd4f.jar" />
     </item>
 
 </items>
