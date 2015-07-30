@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notelist">
+   
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="35dp" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btmLayout"
+        android:layout_below="@+id/textViewTop"
+        android:background="#FFF9C8"
+        android:divider="#D3D3D3"
+        android:dividerHeight="1sp" 
+        android:footerDividersEnabled="true" />
+
+    <LinearLayout
+        android:id="@+id/btmLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"        
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="10dp">
+
+    	<!--<Button-->
+    	    <!--android:id="@+id/addnotebutton"-->
+    	    <!--android:layout_width="50dp"-->
+    	    <!--android:layout_height="wrap_content"-->
+    	    <!--android:background="@drawable/create_note" />-->
+
+        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/pink_icon"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--fab_icon="@drawable/ic_fab_star"-->
+            <!--fab_colorNormal="@color/pink"-->
+            <!--fab_colorPressed="@color/pink_pressed"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="16dp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="27dp"-->
+            <!--android:layout_above="@id/pink_icon"-->
+            <!--android:text="Text below button"-->
+            <!--android:layout_centerHorizontal="true"-->
+
+            <!--android:layout_marginBottom="48dp"/>-->
+
+        <!--<com.getbase.floatingactionbutton.AddFloatingActionButton-->
+            <!--android:id="@+id/semi_transparent"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@id/pink_icon"-->
+            <!--fab_plusIconColor="@color/white"-->
+            <!--fab_colorNormal="@color/blue_semi_transparent"-->
+            <!--fab_colorPressed="@color/blue_semi_transparent_pressed"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="16dp"/>-->
+
+        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
+            <!--android:id="@+id/setter"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@id/semi_transparent"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginBottom="16dp"/>-->
+
+        <com.getbase.floatingactionbutton.AddFloatingActionButton
+            android:id="@+id/addnotebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            fab_plusIconColor="@color/half_black"
+            fab_colorNormal="@color/white"
+            fab_colorPressed="@color/white_pressed"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:clickable="false" />
+
+    </LinearLayout>
+    
+    	
+</RelativeLayout> 
